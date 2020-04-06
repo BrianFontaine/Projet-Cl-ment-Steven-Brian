@@ -1,5 +1,114 @@
-body
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+img
 {
-    margin: 0;
-    padding: 0;
+    width: 350px;
+    height: auto;
+}
+/* header navbar Menu deroulant */
+/* alignement du logo au menu  */
+.logo+ul
+{
+    display: inline-block;
+}
+ /* FIN alignement du logo au menu   */
+ /* definition de la taille du logo */
+.logo
+{
+    width:auto;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 43px;
+    color: #FFF;
+    font-size: 50px;
+}
+/* FIN definition de la taille du logo */
+/* TAILLE DE LA NAV BAR */
+nav
+{
+    width: 1900px;
+    margin: 0 auto;
+    background-color: #912323;
+    position: sticky;
+    top: 0px;
+    
+}
+/* FIN TAILLE DE LA NAV BAR */
+/* STYLISER LES MENUS */
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 220px;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    text-transform: uppercase;
+    display: block;
+    width: 220px;
+    text-decoration: none;
+    color: #FFF;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: rgb(172, 167, 167);
+    border-bottom: 2px solid #FFF;
+}
+/* FIN DE STYLISATON DES MENU  */
+/* STULISER LES SOUS MENU */
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: #912323;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+/* FIN STULISER LES SOUS MENU */
+
+/* fin header navbar*/
+/* div info */
+.info
+{
+    width: 1900px;
+    height: 978;
+}
+.background
+{
+    background-image: url('asset/img/vins.jpg');    
 }
