@@ -34,6 +34,7 @@ nav
     margin: 0 auto;
     background-color: #912323;
     position: sticky;
+    z-index: 20;
     top: 0px;
     
 }
@@ -104,12 +105,56 @@ nav > ul li:hover .sous{
 
 /* fin header navbar*/
 /* div info */
-.info
-{
-    width: 1900px;
-    height: 978;
-}
+/* Backgroud info */
 .background
 {
-    background-image: url('../img/vins.jpg');    
+    display: inline-block;
+    width: 1900px;
+    height: 978px;
+    background-image: url('../img/bar-tavern-pub-restaurant-bar-stools-alcohol.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+/* Backgroud info */
+/* contener info text plus le rectangle*/
+.info
+{
+    width: 1834px;
+    height: 708px;
+    background-color: #FFF;
+    opacity: 64%;
+    border-radius: 76px;
+    margin-left: 32px;
+    margin-top: 219px;
+}
+.title
+{
+    font-size: 70px;
+}
+.info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 53px;
+    text-align: center;
+    color: black;
+}
+/* contener info text plus le rectangle*/
+/* titre section  */
+h2
+{
+    width: 1900px;
+    height: 150px;
+    background-color: #912323;
+    font-size: 70px;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
