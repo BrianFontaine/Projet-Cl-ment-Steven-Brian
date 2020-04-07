@@ -8,6 +8,7 @@ img
     width: 350px;
     height: auto;
 }
+
 /* header navbar Menu deroulant */
 /* alignement du logo au menu  */
 .logo+ul
@@ -110,5 +111,6 @@ nav > ul li:hover .sous{
 }
 .background
 {
-    background-image: url('asset/img/vins.jpg');    
+    width: 100vh;
+    background-image: url("asset/img/bar-tavern-pub-restaurant-bar-stools-alcohol.jpg")  
 }
