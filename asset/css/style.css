@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Avenir, sans-serif;
+    font-family: 'Permanent Marker', cursive;
 }
 
 img {
@@ -23,12 +24,18 @@ img {
     text-transform: uppercase;
     margin-left: 43px;
     color: #FFF;
-    font-size: 50px;
+    font-size: 70px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 2px solid black;
 }
 
 /* FIN definition de la taille du logo */
 /* TAILLE DE LA NAV BAR */
 nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 1920px;
     margin: 0 auto;
     background-color: #912323;
@@ -128,8 +135,7 @@ nav>ul li:hover .sous {
 .info {
     width: 1834px;
     height: 708px;
-    background-color: #FFF;
-    opacity: 64%;
+    background-color:RGBa(255, 255, 255, 0.6);
     border-radius: 76px;
     margin-left: 32px;
     margin-top: 219px;
@@ -176,30 +182,66 @@ h2
 {
     border-bottom: 2px #CCC inset;
     box-shadow: black 3px;
-    margin-bottom: -79px;
 }
-section
+.container
 {
-    margin-bottom: -79px;
+    height: 660px;
 }
 /* titre section  */
 
 /* text section */
-p.def
+#text2
 {
-    font-size: 15px;
-    padding-bottom: 50px;
+    
+    float: left; 
+    width: 690px;  
+    height: 450px;
+    margin-left: 150px;
+    margin-top: 250px;
+    border-bottom: 5px solid black;
+    border-radius: 10px;
 }
-#text
+#maps
+{
+    border-radius: 30px;
+    margin-top: 10px;
+    float: right; 
+    width: 670px;  
+    height: 450px;
+    margin-right: 150px;
+}
+#adresse
+{
+    text-align: center;
+    border-bottom: 5px solid black;
+    border-radius: 10px;
+    width: 670px;
+    float: right; 
+    margin-right: 150px;
+    margin-top: 200px;
+}
+
+
+p.def
 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    opacity: 100%;
+    align-items: center;
+    justify-content: space-between;
     font-size: 25px;
+    text-transform: initial;
+}
+.text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 100%;
+    text-transform: uppercase;
+    font-size: 35px;
     width: 1834px;
-    height: 708px;
+    height: 1029px;
     border-radius: 76px;
     margin-left: 32px;
     margin-top: 219px;
@@ -210,8 +252,7 @@ p.def
     font-size: 35px;
     width: 1834px;
     height: 1029px;
-    background-color: #FFF;
-    opacity: 64%;
+    background-color:RGBa(255, 255, 255, 0.6);
     border-radius: 76px;
     margin-left: 32px;
     margin-top: 219px;
@@ -222,15 +263,12 @@ p.def
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     color: #912323; 
 }
-#maps
-{
-   clear: both;
-}
+
 /* fin text-section */
 
 /* background section */
@@ -247,13 +285,112 @@ p.def
 {
     display: inline-block;
     background-image: url(../img/entree.jpg);
-    background-size: 100%;
+    background-size: cover;
     width: 1920px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
 }
-
+.background2 
+{
+    display: inline-block;
+    background-image: url(../img/plats.jpg);
+    background-size: cover;
+    width: 1920px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background3 
+{
+    display: inline-block;
+    background-image: url(../img/Pates.jpg);
+    background-size: cover;
+    width: 1920px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background4 
+{
+    display: inline-block;
+    background-image: url(../img/viandes.jpg);
+    background-size: cover;
+    width: 1920px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background5 
+{
+    display: inline-block;
+    background-image: url(../img/poissons.jpg);
+    background-size: cover;
+    width: 1920px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background6 
+{
+    display: inline-block;
+    background-image: url(../img/dessert.jpg);
+    background-size: cover;
+    width: 1920px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background7 
+{
+    display: inline-block;
+    background-image: url(../img/apperitif.jpg);
+    background-size: cover;
+    width: 1920px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background8
+{
+    display: inline-block;
+    background-image: url(../img/vins.jpg);
+    background-size: cover;
+    width: 1920px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background9 
+{
+    display: inline-block;
+    background-image: url(../img/soft.jpg);
+    background-size: cover;
+    width: 1920px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background10 
+{
+    display: inline-block;
+    background-image: url(../img/boissonschaude.jpg);
+    background-size: cover;
+    width: 1920px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background11 
+{
+    display: inline-block;
+    background-image: url(../img/noustrouver.jpg);
+    background-size: cover;
+    width: 1920px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 footer{
     display: flex;
     flex-direction: column;
@@ -266,3 +403,61 @@ footer{
     height: 169px;
 }
 /* background section */
+*{box-sizing: border-box }
+
+img
+{
+    border-radius: 50%;
+    max-width:100%
+}
+
+@keyframes animation_slide {
+0% {left:0}
+20%{left:0}/*image1*/
+
+25%{left:-100%}
+45%{left:-100%}/*image2*/
+
+50%{left:-200%}
+70%{left:-200%}/*image3*/
+
+75%{left:-300%}/*image4*/
+95%{left:-300%}
+
+100%{left:-400%}/*image5*/}
+
+@-webkit-keyframes animation_slide {
+0% {left:0}
+20%{left:0}/*image1*/
+
+25%{left:-100%}
+45%{left:-100%}/*image2*/
+
+50%{left:-200%}
+70%{left:-200%}/*image3*/
+
+75%{left:-300%}/*image4*/
+95%{left:-300%}
+
+100%{left:-400%}/*image5*/}
+
+
+figure img
+{
+margin-top: 50px;
+pointer-events:none;
+width:20%;
+height:660px;
+object-fit:contain;
+float:left
+
+}
+
+figure{
+
+
+position: relative;
+width: 500%;
+animation: 35s animation_slide infinite; 
+
+}
