@@ -165,7 +165,8 @@ h2 {
 
 }
 
-.starter {
+.starter 
+{
     background-image: url(../img/entree.jpg);
     background-size: 100%;
     width: 1900px;
@@ -174,7 +175,8 @@ h2 {
     background-position: center;
 }
 
-.plates {
+.plates 
+{
     background-image: url(../img/plats.jpg);
     background-size: 100%;
     width: 1900px;
@@ -183,7 +185,8 @@ h2 {
     background-position: center;
 }
 
-.pastry {
+.pastry 
+{
     background-image: url("../img/Pates.jpg");
     background-size: 100%;
     width: 1900px;
@@ -193,7 +196,8 @@ h2 {
 
 }
 
-.meat {
+.meat 
+{
     background-image: url("../img/viandes.jpg");
     background-size: 100%;
     width: 1900px;
@@ -203,7 +207,8 @@ h2 {
 
 }
 
-.fish {
+.fish 
+{
     background-image: url("../img/poissons.jpg");
     background-size: 100%;
     width: 1900px;
@@ -213,7 +218,8 @@ h2 {
 
 }
 
-.desert {
+.desert 
+{
     background-image: url("../img/dessert.jpg");
     background-size: 100%;
     width: 1900px;
@@ -223,7 +229,8 @@ h2 {
 
 }
 
-.drink {
+.drink 
+{
     background-image: url("../img/apperitif.jpg");
     background-size: 100%;
     width: 1900px;
@@ -254,6 +261,16 @@ h2 {
 
 .hots-drinks {
     background-image: url("../img/boissonschaude.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.to-find-us {
+    background-image: url("../img/noustrouver.jpg");
     background-size: 100%;
     width: 1900px;
     height: 1438px;
