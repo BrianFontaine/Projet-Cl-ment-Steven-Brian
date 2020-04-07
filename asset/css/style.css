@@ -164,7 +164,15 @@ h2 {
     align-items: center;
 
 }
+.teams{
+    background-color: #912323;
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
 
+}
 .starter 
 {
     background-image: url(../img/entree.jpg);
