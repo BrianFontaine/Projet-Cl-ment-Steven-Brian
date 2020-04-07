@@ -36,7 +36,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
     background-color: #912323;
     position: sticky;
@@ -122,7 +122,7 @@ nav>ul li:hover .sous {
 /* Backgroud info */
 .background {
     display: inline-block;
-    width: 1920px;
+    width: 100%;
     height: 978px;
     background-image: url('../img/bar-tavern-pub-restaurant-bar-stools-alcohol.jpg');
     background-repeat: no-repeat;
@@ -166,17 +166,16 @@ nav>ul li:hover .sous {
 /* contener info text plus le rectangle*/
 /* titre section  */
 h2 {
-    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: 150px;
     background-color: #912323;
     font-size: 70px;
     text-align: center;
     color: #FFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
 }
 h2
 {
@@ -275,7 +274,7 @@ p.def
 .teams{
     background-color: #912323;
     background-size: 100%;
-    width: 1920px;
+    width: 100%;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -286,7 +285,7 @@ p.def
     display: inline-block;
     background-image: url(../img/entree.jpg);
     background-size: cover;
-    width: 1920px;
+    width: 100%;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -296,7 +295,7 @@ p.def
     display: inline-block;
     background-image: url(../img/plats.jpg);
     background-size: cover;
-    width: 1920px;
+    width: 100%;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -306,7 +305,7 @@ p.def
     display: inline-block;
     background-image: url(../img/Pates.jpg);
     background-size: cover;
-    width: 1920px;
+    width: 100%;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -316,7 +315,7 @@ p.def
     display: inline-block;
     background-image: url(../img/viandes.jpg);
     background-size: cover;
-    width: 1920px;
+    width: 100%;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -326,7 +325,7 @@ p.def
     display: inline-block;
     background-image: url(../img/poissons.jpg);
     background-size: cover;
-    width: 1920px;
+    width: 100%;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -336,7 +335,7 @@ p.def
     display: inline-block;
     background-image: url(../img/dessert.jpg);
     background-size: cover;
-    width: 1920px;
+    width: 100%;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -346,7 +345,7 @@ p.def
     display: inline-block;
     background-image: url(../img/apperitif.jpg);
     background-size: cover;
-    width: 1920px;
+    width: 100%;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -356,7 +355,7 @@ p.def
     display: inline-block;
     background-image: url(../img/vins.jpg);
     background-size: cover;
-    width: 1920px;
+    width: 100%;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -366,7 +365,7 @@ p.def
     display: inline-block;
     background-image: url(../img/soft.jpg);
     background-size: cover;
-    width: 1920px;
+    width: 100%;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -376,7 +375,7 @@ p.def
     display: inline-block;
     background-image: url(../img/boissonschaude.jpg);
     background-size: cover;
-    width: 1920px;
+    width: 100%;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -386,7 +385,7 @@ p.def
     display: inline-block;
     background-image: url(../img/noustrouver.jpg);
     background-size: cover;
-    width: 1920px;
+    width: 100%;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -399,65 +398,103 @@ footer{
     color: #FFF;
     font-size: 30px;
     background-color: #912323;
-    width: 1920px;
+    width: 100%;
     height: 169px;
 }
 /* background section */
-*{box-sizing: border-box }
-
-img
+/* CAROUSELLE EN CSS */
+.slider
 {
-    border-radius: 50%;
-    max-width:100%
+    width: 350px;
+    overflow: hidden;
+    margin: 100px auto;
 }
-
-@keyframes animation_slide {
-0% {left:0}
-20%{left:0}/*image1*/
-
-25%{left:-100%}
-45%{left:-100%}/*image2*/
-
-50%{left:-200%}
-70%{left:-200%}/*image3*/
-
-75%{left:-300%}/*image4*/
-95%{left:-300%}
-
-100%{left:-400%}/*image5*/}
-
-@-webkit-keyframes animation_slide {
-0% {left:0}
-20%{left:0}/*image1*/
-
-25%{left:-100%}
-45%{left:-100%}/*image2*/
-
-50%{left:-200%}
-70%{left:-200%}/*image3*/
-
-75%{left:-300%}/*image4*/
-95%{left:-300%}
-
-100%{left:-400%}/*image5*/}
-
-
-figure img
+.slides
 {
-margin-top: 50px;
-pointer-events:none;
-width:20%;
-height:660px;
-object-fit:contain;
-float:left
-
+    width: calc(350px*10);
+    animation: move 35s infinite;
 }
-
-figure{
-
-
-position: relative;
-width: 500%;
-animation: 35s animation_slide infinite; 
-
+.slide
+{
+    float: left;
 }
+@keyframes move
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    5%
+    {
+        transform: translateX(0);
+    }
+    10%
+    {
+        transform: translateX(-355px);
+    }
+    15%
+    {
+        transform: translateX(-355px);
+    }
+    20%
+    {
+        transform: translateX(-710px);
+    }
+    25%
+    {
+        transform: translateX(-710px);
+    }
+    30%
+    {
+        transform: translateX(-1070px);
+    }
+    35%
+    {
+        transform: translateX(-1070px);
+    }
+    40%
+    {
+        transform: translateX(-1425px);
+    }
+    45%
+    {
+        transform: translateX(-1425px);
+    }
+    50%
+    {
+        transform: translateX(-1780px);
+    }
+    55%
+    {
+        transform: translateX(-1780px);
+    }
+    60%
+    {
+        transform: translateX(-2135px);
+    }
+    65%
+    {
+        transform: translateX(-2135px);
+    }
+    70%
+    {
+        transform: translateX(-2490px);
+    }
+    75%
+    {
+        transform: translateX(-2490px);
+    }
+    80%
+    {
+        transform: translateX(-2850px);
+    }
+    85%
+    {
+        transform: translateX(-2850px);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+/* FIN DU CAROUSELLE EN CSS */
