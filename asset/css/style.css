@@ -1,64 +1,63 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Avenir, sans-serif;
 }
 
-img
-{
+img {
     width: 350px;
     height: auto;
 }
 
 /* header navbar Menu deroulant */
 /* alignement du logo au menu  */
-.logo+ul
-{
+.logo+ul {
     display: inline-block;
 }
- /* FIN alignement du logo au menu   */
- /* definition de la taille du logo */
-.logo
-{
-    width:auto;
+
+/* FIN alignement du logo au menu   */
+/* definition de la taille du logo */
+.logo {
+    width: auto;
     display: inline-block;
     text-transform: uppercase;
     margin-left: 43px;
     color: #FFF;
     font-size: 50px;
 }
+
 /* FIN definition de la taille du logo */
 /* TAILLE DE LA NAV BAR */
-nav
-{
+nav {
     width: 1900px;
     margin: 0 auto;
     background-color: #912323;
     position: sticky;
     z-index: 20;
     top: 0px;
-    
+
 }
+
 /* FIN TAILLE DE LA NAV BAR */
 /* STYLISER LES MENUS */
-nav ul{
+nav ul {
     list-style-type: none;
 }
 
-nav ul li{
+nav ul li {
     float: left;
     width: 220px;
     text-align: center;
     position: relative;
 }
 
-nav ul::after{
+nav ul::after {
     content: "";
     display: table;
     clear: both;
 }
 
-nav a{
+nav a {
     text-transform: uppercase;
     display: block;
     width: 220px;
@@ -68,13 +67,14 @@ nav a{
     padding: 10px 0px;
 }
 
-nav a:hover{
+nav a:hover {
     color: rgb(172, 167, 167);
     border-bottom: 2px solid #FFF;
 }
+
 /* FIN DE STYLISATON DES MENU  */
 /* STULISER LES SOUS MENU */
-.sous{
+.sous {
     display: none;
     box-shadow: 0px 1px 2px #CCC;
     background-color: #912323;
@@ -82,33 +82,38 @@ nav a:hover{
     width: 100%;
     z-index: 1000;
 }
-nav > ul li:hover .sous{
+
+nav>ul li:hover .sous {
     display: block;
 }
-.sous li{
+
+.sous li {
     float: none;
     width: 100%;
     text-align: left;
 }
-.sous a{
+
+.sous a {
     padding: 10px;
     border-bottom: none;
 }
-.sous a:hover{
+
+.sous a:hover {
     border-bottom: none;
-    background-color: RGBa(200,200,200,0.1);
+    background-color: RGBa(200, 200, 200, 0.1);
 }
-.deroulant > a::after{
-    content:" ▼";
+
+.deroulant>a::after {
+    content: " ▼";
     font-size: 12px;
 }
+
 /* FIN STULISER LES SOUS MENU */
 
 /* fin header navbar*/
 /* div info */
 /* Backgroud info */
-.background
-{
+.background {
     display: inline-block;
     width: 1900px;
     height: 978px;
@@ -117,10 +122,10 @@ nav > ul li:hover .sous{
     background-position: center;
     background-size: 100%;
 }
+
 /* Backgroud info */
 /* contener info text plus le rectangle*/
-.info
-{
+.info {
     width: 1834px;
     height: 708px;
     background-color: #FFF;
@@ -129,12 +134,12 @@ nav > ul li:hover .sous{
     margin-left: 32px;
     margin-top: 219px;
 }
-.title
-{
+
+.title {
     font-size: 70px;
 }
-.info
-{
+
+.info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,10 +148,10 @@ nav > ul li:hover .sous{
     text-align: center;
     color: black;
 }
+
 /* contener info text plus le rectangle*/
 /* titre section  */
-h2
-{
+h2 {
     width: 1900px;
     height: 150px;
     background-color: #912323;
@@ -157,112 +162,102 @@ h2
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-<<<<<<< HEAD
-.starter
-{
-background-image: url(../img/entree.jpg);
-background-size: 100%;
-width:  1900px;
-height: 1438px;
-background-repeat: no-repeat;
-background-position: center;
+
+.starter {
+    background-image: url(../img/entree.jpg);
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.plates
-{
+
+.plates {
     background-image: url(../img/plats.jpg);
     background-size: 100%;
-    width:  1900px;
+    width: 1900px;
     height: 1438px;
     background-repeat: no-repeat;
-    background-position: center;   
-}
-.drink
-{
-    background-image: url(../img/apperitif.jpg);
-    background-size: 100%;
-    width:  1900px;
-    height: 1438px;
-    background-repeat: no-repeat;
-    background-position: center;   
+    background-position: center;
 }
 
-
-    
-=======
-
-.pastry
-{
+.pastry {
     background-image: url("../img/Pates.jpg");
     background-size: 100%;
     width: 1900px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 
-
-.meat
-{
+.meat {
     background-image: url("../img/viandes.jpg");
     background-size: 100%;
     width: 1900px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
-      
+
 }
-.fish
-{
+
+.fish {
     background-image: url("../img/poissons.jpg");
     background-size: 100%;
     width: 1900px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 
-.desert
-{
+.desert {
     background-image: url("../img/dessert.jpg");
     background-size: 100%;
     width: 1900px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
-.wine
-{
+
+.drink {
+    background-image: url(../img/apperitif.jpg);
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wine {
     background-image: url("../img/vins.jpg");
     background-size: 100%;
     width: 1900px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
-.soft
-{
+
+.soft {
     background-image: url("../img/soft.jpg");
     background-size: 100%;
     width: 1900px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
-      
+
 }
-.hots-drinks
-{
+
+.hots-drinks {
     background-image: url("../img/boissonschaude.jpg");
     background-size: 100%;
     width: 1900px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
->>>>>>> 4b891547eb8c35c3dd8bae32d9403e96b5550d7f
