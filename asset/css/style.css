@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: Avenir, sans-serif;
 }
+
 img
 {
     width: 350px;
@@ -108,7 +109,16 @@ nav > ul li:hover .sous{
     width: 1900px;
     height: 978;
 }
-.background
-{
-    background-image: url('asset/img/vins.jpg');    
+.info{
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/02/10/27/bar-828768_1280.jpg);
+    width: auto;
+    height: 800px;
+    border: #912323 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: auto;
+    font-size: 35px;
+    
+
 }
+      
