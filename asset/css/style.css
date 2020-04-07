@@ -133,21 +133,6 @@ nav > ul li:hover .sous{
 {
     font-size: 70px;
 }
-<<<<<<< HEAD
-.info{
-    background-image: url(https://cdn.pixabay.com/photo/2015/07/02/10/27/bar-828768_1280.jpg);
-    width: auto;
-    height: 800px;
-    border: #912323 1px solid;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: auto;
-    font-size: 35px;
-    
-
-}
-      
-=======
 .info
 {
     display: flex;
@@ -174,4 +159,77 @@ h2
     align-items: center;
     
 }
->>>>>>> 5a9e370e3f18735787783133b9ca4950a3799eda
+
+.pastry
+{
+    background-image: url("../img/Pates.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+.meat
+{
+    background-image: url("../img/viandes.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+}
+.fish
+{
+    background-image: url("../img/poissons.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.desert
+{
+    background-image: url("../img/dessert.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.wine
+{
+    background-image: url("../img/vins.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.soft
+{
+    background-image: url("../img/soft.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+}
+.hots-drinks
+{
+    background-image: url("../img/boissonschaude.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
