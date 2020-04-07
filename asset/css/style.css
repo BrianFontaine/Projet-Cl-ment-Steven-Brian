@@ -29,7 +29,7 @@ img {
 /* FIN definition de la taille du logo */
 /* TAILLE DE LA NAV BAR */
 nav {
-    width: 1900px;
+    width: 100vw;
     margin: 0 auto;
     background-color: #912323;
     position: sticky;
@@ -115,7 +115,7 @@ nav>ul li:hover .sous {
 /* Backgroud info */
 .background {
     display: inline-block;
-    width: 1900px;
+    width: 100vw;
     height: 978px;
     background-image: url('../img/bar-tavern-pub-restaurant-bar-stools-alcohol.jpg');
     background-repeat: no-repeat;
@@ -152,7 +152,7 @@ nav>ul li:hover .sous {
 /* contener info text plus le rectangle*/
 /* titre section  */
 h2 {
-    width: 1900px;
+    width: 100vw;
     height: 150px;
     background-color: #912323;
     font-size: 70px;
@@ -167,7 +167,7 @@ h2 {
 .teams{
     background-color: #912323;
     background-size: 100%;
-    width: 1900px;
+    width: 100vw;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -177,7 +177,7 @@ h2 {
 {
     background-image: url(../img/entree.jpg);
     background-size: 100%;
-    width: 1900px;
+    width: 100vw;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -187,7 +187,7 @@ h2 {
 {
     background-image: url(../img/plats.jpg);
     background-size: 100%;
-    width: 1900px;
+    width: 100vw;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -197,7 +197,7 @@ h2 {
 {
     background-image: url("../img/Pates.jpg");
     background-size: 100%;
-    width: 1900px;
+    width: 100vw;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -208,7 +208,7 @@ h2 {
 {
     background-image: url("../img/viandes.jpg");
     background-size: 100%;
-    width: 1900px;
+    width: 100vw;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -219,7 +219,7 @@ h2 {
 {
     background-image: url("../img/poissons.jpg");
     background-size: 100%;
-    width: 1900px;
+    width: 100vw;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -230,7 +230,7 @@ h2 {
 {
     background-image: url("../img/dessert.jpg");
     background-size: 100%;
-    width: 1900px;
+    width: 100vw;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -241,7 +241,7 @@ h2 {
 {
     background-image: url("../img/apperitif.jpg");
     background-size: 100%;
-    width: 1900px;
+    width: 100vw;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -250,7 +250,7 @@ h2 {
 .wine {
     background-image: url("../img/vins.jpg");
     background-size: 100%;
-    width: 1900px;
+    width: 100vw;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -260,7 +260,7 @@ h2 {
 .soft {
     background-image: url("../img/soft.jpg");
     background-size: 100%;
-    width: 1900px;
+    width: 100vw;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -270,7 +270,7 @@ h2 {
 .hots-drinks {
     background-image: url("../img/boissonschaude.jpg");
     background-size: 100%;
-    width: 1900px;
+    width: 100vw;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -280,9 +280,15 @@ h2 {
 .to-find-us {
     background-image: url("../img/noustrouver.jpg");
     background-size: 100%;
-    width: 1900px;
+    width: 100vw;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
 
+}
+
+.footer{
+    background-color: #912323;
+    width: 100vw;
+    height: 169px;
 }
