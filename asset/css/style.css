@@ -224,7 +224,7 @@ h2 {
 }
 
 .drink {
-    background-image: url(../img/apperitif.jpg);
+    background-image: url("../img/apperitif.jpg");
     background-size: 100%;
     width: 1900px;
     height: 1438px;
