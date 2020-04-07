@@ -110,5 +110,5 @@ nav > ul li:hover .sous{
 }
 .background
 {
-    background-image: url('asset/img/vins.jpg');    
+    background-image: url('../img/vins.jpg');    
 }
