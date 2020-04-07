@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: Avenir, sans-serif;
 }
+
 img
 {
     width: 350px;
@@ -158,6 +159,7 @@ h2
     align-items: center;
     
 }
+<<<<<<< HEAD
 .starter
 {
 background-image: url(../img/entree.jpg);
@@ -188,3 +190,79 @@ background-position: center;
 
 
     
+=======
+
+.pastry
+{
+    background-image: url("../img/Pates.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+.meat
+{
+    background-image: url("../img/viandes.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+}
+.fish
+{
+    background-image: url("../img/poissons.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.desert
+{
+    background-image: url("../img/dessert.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.wine
+{
+    background-image: url("../img/vins.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.soft
+{
+    background-image: url("../img/soft.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+}
+.hots-drinks
+{
+    background-image: url("../img/boissonschaude.jpg");
+    background-size: 100%;
+    width: 1900px;
+    height: 1438px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+>>>>>>> 4b891547eb8c35c3dd8bae32d9403e96b5550d7f
