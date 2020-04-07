@@ -391,6 +391,7 @@ p.def
     background-position: center;
 }
 footer{
+    margin-top: -5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
