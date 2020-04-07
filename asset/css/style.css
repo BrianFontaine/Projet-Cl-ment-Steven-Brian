@@ -36,7 +36,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 1920px;
     margin: 0 auto;
     background-color: #912323;
     position: sticky;
@@ -122,7 +122,7 @@ nav>ul li:hover .sous {
 /* Backgroud info */
 .background {
     display: inline-block;
-    width: 100%;
+    width:  1920px;
     height: 978px;
     background-image: url('../img/bar-tavern-pub-restaurant-bar-stools-alcohol.jpg');
     background-repeat: no-repeat;
@@ -170,7 +170,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 1920px;
     height: 150px;
     background-color: #912323;
     font-size: 70px;
@@ -274,7 +274,7 @@ p.def
 .teams{
     background-color: #912323;
     background-size: 100%;
-    width: 100%;
+    width: 1920px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -285,7 +285,7 @@ p.def
     display: inline-block;
     background-image: url(../img/entree.jpg);
     background-size: cover;
-    width: 100%;
+    width: 1920px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -295,7 +295,7 @@ p.def
     display: inline-block;
     background-image: url(../img/plats.jpg);
     background-size: cover;
-    width: 100%;
+    width: 1920px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -305,7 +305,7 @@ p.def
     display: inline-block;
     background-image: url(../img/Pates.jpg);
     background-size: cover;
-    width: 100%;
+    width: 1920px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -315,7 +315,7 @@ p.def
     display: inline-block;
     background-image: url(../img/viandes.jpg);
     background-size: cover;
-    width: 100%;
+    width: 1920px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -325,7 +325,7 @@ p.def
     display: inline-block;
     background-image: url(../img/poissons.jpg);
     background-size: cover;
-    width: 100%;
+    width: 1920px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -335,7 +335,7 @@ p.def
     display: inline-block;
     background-image: url(../img/dessert.jpg);
     background-size: cover;
-    width: 100%;
+    width: 1920px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -345,7 +345,7 @@ p.def
     display: inline-block;
     background-image: url(../img/apperitif.jpg);
     background-size: cover;
-    width: 100%;
+    width: 1920px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -355,7 +355,7 @@ p.def
     display: inline-block;
     background-image: url(../img/vins.jpg);
     background-size: cover;
-    width: 100%;
+    width: 1920px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -365,7 +365,7 @@ p.def
     display: inline-block;
     background-image: url(../img/soft.jpg);
     background-size: cover;
-    width: 100%;
+    width: 1920px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -375,7 +375,7 @@ p.def
     display: inline-block;
     background-image: url(../img/boissonschaude.jpg);
     background-size: cover;
-    width: 100%;
+    width: 1920px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -385,7 +385,7 @@ p.def
     display: inline-block;
     background-image: url(../img/noustrouver.jpg);
     background-size: cover;
-    width: 100%;
+    width: 1920px;
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
@@ -398,10 +398,12 @@ footer{
     color: #FFF;
     font-size: 30px;
     background-color: #912323;
-    width: 100%;
+    width: 1920px;
     height: 169px;
 }
 /* background section */
+
+
 /* CAROUSELLE EN CSS */
 .slider
 {
@@ -430,67 +432,67 @@ footer{
     }
     10%
     {
-        transform: translateX(-355px);
+        transform: translateX(-350px);
     }
     15%
     {
-        transform: translateX(-355px);
+        transform: translateX(-350px);
     }
     20%
     {
-        transform: translateX(-710px);
+        transform: translateX(-700px);
     }
     25%
     {
-        transform: translateX(-710px);
+        transform: translateX(-700px);
     }
     30%
     {
-        transform: translateX(-1070px);
+        transform: translateX(-1050px);
     }
     35%
     {
-        transform: translateX(-1070px);
+        transform: translateX(-1050px);
     }
     40%
     {
-        transform: translateX(-1425px);
+        transform: translateX(-1400px);
     }
     45%
     {
-        transform: translateX(-1425px);
+        transform: translateX(-1400px);
     }
     50%
     {
-        transform: translateX(-1780px);
+        transform: translateX(-1750px);
     }
     55%
     {
-        transform: translateX(-1780px);
+        transform: translateX(-1750px);
     }
     60%
     {
-        transform: translateX(-2135px);
+        transform: translateX(-2100px);
     }
     65%
     {
-        transform: translateX(-2135px);
+        transform: translateX(-2100px);
     }
     70%
     {
-        transform: translateX(-2490px);
+        transform: translateX(-2450px);
     }
     75%
     {
-        transform: translateX(-2490px);
+        transform: translateX(-2450px);
     }
     80%
     {
-        transform: translateX(-2850px);
+        transform: translateX(-2800px);
     }
     85%
     {
-        transform: translateX(-2850px);
+        transform: translateX(-2800px);
     }
     100%
     {
