@@ -180,7 +180,7 @@ h2
 }
 section
 {
-    margin-bottom: -99px;
+    margin-bottom: -79px;
 }
 /* titre section  */
 
@@ -227,6 +227,10 @@ p.def
     text-align: center;
     color: #912323; 
 }
+#maps
+{
+   clear: both;
+}
 /* fin text-section */
 
 /* background section */
@@ -239,7 +243,7 @@ p.def
     background-position: center;
 
 }
-.background-starter 
+.background1 
 {
     display: inline-block;
     background-image: url(../img/entree.jpg);
@@ -248,110 +252,6 @@ p.def
     height: 1438px;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.plates 
-{
-    background-image: url(../img/plats.jpg);
-    background-size: 100%;
-    width: 1920px;
-    height: 1438px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pastry 
-{
-    background-image: url("../img/Pates.jpg");
-    background-size: 100%;
-    width: 1920px;
-    height: 1438px;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.meat 
-{
-    background-image: url("../img/viandes.jpg");
-    background-size: 100%;
-    width: 1920px;
-    height: 1438px;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.fish 
-{
-    background-image: url("../img/poissons.jpg");
-    background-size: 100%;
-    width: 1920px;
-    height: 1438px;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.desert 
-{
-    background-image: url("../img/dessert.jpg");
-    background-size: 100%;
-    width: 1920px;
-    height: 1438px;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.drink 
-{
-    background-image: url("../img/apperitif.jpg");
-    background-size: 100%;
-    width: 1920px;
-    height: 1438px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.wine {
-    background-image: url("../img/vins.jpg");
-    background-size: 100%;
-    width: 1920px;
-    height: 1438px;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.soft {
-    background-image: url("../img/soft.jpg");
-    background-size: 100%;
-    width: 1920px;
-    height: 1438px;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.hots-drinks {
-    background-image: url("../img/boissonschaude.jpg");
-    background-size: 100%;
-    width: 1920px;
-    height: 1438px;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.to-find-us {
-    background-image: url("../img/noustrouver.jpg");
-    background-size: 100%;
-    width: 1920px;
-    height: 1438px;
-    background-repeat: no-repeat;
-    background-position: center;
-
 }
 
 footer{
