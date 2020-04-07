@@ -111,6 +111,5 @@ nav > ul li:hover .sous{
 }
 .background
 {
-    width: 100vh;
-    background-image: url("asset/img/bar-tavern-pub-restaurant-bar-stools-alcohol.jpg")  
+    background-image: url('../img/vins.jpg');    
 }
