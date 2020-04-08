@@ -406,21 +406,28 @@ footer{
 
 
 /* CAROUSELLE EN CSS */
+/* le contenue des image  */
 .slider
 {
     width: 350px;
     overflow: hidden;
     margin: 100px auto;
 }
+/* fin du contenue image */
+/* ma taille du contenue */
 .slides
 {
     width: calc(350px*10);
     animation: move 35s infinite;
 }
+/* fin de la definition du contenue des image */
+/* positionement des image */
 .slide
 {
     float: left;
 }
+/* fin du possitionement des images  */
+/* animation des image avec possitionement  */
 @keyframes move
 {
     0%
@@ -500,4 +507,5 @@ footer{
         transform: translateX(0);
     }
 }
+/* fin de lanimation avec positionement en x des images  */
 /* FIN DU CAROUSELLE EN CSS */
